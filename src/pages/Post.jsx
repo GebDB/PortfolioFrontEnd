@@ -10,7 +10,7 @@ function Post() { // change to implement the image article once.
     const clean = DOMPurify.sanitize(postObject.postText);
 
     useEffect(() => {
-      axios.get(`https://portfoliodb-danielsportfolio.d.aivencloud.com:20254/posts/byId/${id}`).then((response) => {
+      axios.get(`https://danielbecirevic-d8ac0bfad92e.herokuapp.com/posts/byId/${id}`).then((response) => {
         setPostObject(response.data);
         console.log(postObject.imageURL);
       });

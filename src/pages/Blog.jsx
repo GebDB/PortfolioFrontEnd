@@ -9,7 +9,7 @@ function Blog() {
   let navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("https://portfoliodb-danielsportfolio.d.aivencloud.com:20254/posts")
+    axios.get("https://danielbecirevic-d8ac0bfad92e.herokuapp.com/posts")
       .then((response) => {
         setPosts(response.data);
       })
