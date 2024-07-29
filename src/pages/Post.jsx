@@ -14,7 +14,7 @@ function Post() { // change to implement the image article once.
         setPostObject(response.data);
         console.log(postObject.imageURL);
       });
-    });
+    },[id]);
     return (
       <div className="article">
         <div className="articleContainer">
