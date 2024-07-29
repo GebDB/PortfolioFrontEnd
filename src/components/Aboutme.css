@@ -1,0 +1,136 @@
+.aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4A4453;
+    padding-top: 7.0%;
+    padding-bottom: 3%;
+    color: #dbdae8;
+}
+.techstack { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.techcard{
+    display: flex;
+    background-color:rgb(108, 90, 121);
+    margin-left: 90%;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    transition: width 0.6s ease, height 0.6s ease;
+}
+.techcard img {
+    width: 60%;
+    margin: auto;
+}
+.aboutmeText {
+    font-size: 22px;
+    margin-left: 15%;
+    transition: font-size 0.6s ease;
+}
+.aboutmeText p {
+    color: white;
+    width: 65%;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.aboutmeText h1 {
+    font-size: 65px;
+    transition: font-size 0.6s ease;
+}
+.aboutmeText span {
+    box-shadow: inset 0 -.15em rgb(250, 73, 191);
+}
+
+@media screen and (max-width: 1670px) {
+    .aboutmeText {
+        font-size : 21px;
+    }
+    .aboutmeText h1 {
+        font-size: 60px;
+    }
+    .techcard {
+        height: 125px;
+        width: 125px;
+    }
+
+}
+@media screen and (max-width: 1500px) {
+    .aboutmeText {
+        font-size : 20px;
+    }
+    .techcard {
+        height: 112.5px;
+        width: 112.5px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .aboutme {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -6%;
+    }
+    .aboutmeText {
+        margin: auto;
+        text-align: center;
+        padding-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 18px;
+    }
+    .aboutmeText h1 {
+        font-size: 55px;
+    }
+    
+    .aboutmeText p {
+        margin-top: 0%;
+    }
+    .techcard {
+        margin: auto;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 670px)
+{ 
+
+    .aboutmeText {
+        font-size : 15px;
+    }
+    .aboutmeText p {
+        margin-top: 0%;
+    }
+    .aboutmeText h1 {
+        font-size: 45px;
+    }
+   .techcard {
+    height: 75px;
+    width: 75px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .aboutmeText {
+        font-size : 12.5px;
+    }
+    .aboutmeText p {
+        margin-top: -1%;
+    }
+    .aboutmeText h1 {
+        font-size: 35px;
+    }
+   .techcard {
+    height: 52.5px;
+    width: 52.5px;
+    }
+}

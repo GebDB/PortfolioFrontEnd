@@ -1,0 +1,185 @@
+.contact {
+    background-color: #4A4453;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dbdae8;
+    padding-bottom: 15%;
+    padding-top: 4%;
+}
+.contact h2 {
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.contact h1 {
+    font-size: 65px;
+    transition: font-size 0.6s ease;
+}
+.title span {
+    box-shadow: inset 0 -.15em rgb(250, 73, 191);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(10, 8, 43, 0);
+    transition: width 0.6s ease, height 0.6s ease;
+}
+.formContainer #inputForm {
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid rgba(128, 128, 128, 0);
+    background-color: rgba(15, 2, 29, 0.562);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    transition: font-size 0.6s ease, height 0.6s ease;
+    color: rgba(255, 255, 255, 0.808);
+}
+.formContainer #location {
+    display: none;
+}
+.formContainer span {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-top: 2px;
+    padding-left: 2px;
+    font-weight: 100;
+    transition: font-size 0.6s ease;
+}
+.formContainer #messageForm {
+    transition: height 0.6s ease, font-size 0.6s ease;
+    height: 180px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid rgba(128, 128, 128, 0);
+    background-color: rgba(15, 2, 29, 0.562);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.808);
+}
+  
+.formContainer button {
+    margin-top: 4px;
+    font-size: 16px;
+    height: 45px;
+    border: none;
+    background-color: rgb(92, 92, 139);
+    transition: background-color 0.7s ease, color 0.7s ease, 
+    width 0.6s ease, height 0.6s ease, font-size 0.6s ease;
+    border-radius: 5px;
+    color: #c9c9ca;
+}
+.formContainer button:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #988fa8;
+}
+
+@media screen and (max-width: 1670px) {
+    .contact h1 {
+        font-size: 60px;
+    }
+    .formContainer {
+        width: 525px;
+    }
+    .formContainer #inputForm {
+        height: 40px;
+        font-size: 16px;
+    }
+    .formContainer span {
+        font-size: 14px;
+    }
+    .formContainer #messageForm {
+        height: 180px;
+        font-size: 16px;
+    }
+    .formContainer button {
+        font-size: 16px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .contact h1 {
+        font-size: 55px;
+    }
+    .formContainer {
+        width: 425px;
+    }
+    .formContainer #inputForm {
+        height: 30px;
+        font-size: 14px;
+    }
+    .formContainer span {
+        font-size: 12px;
+    }
+    .formContainer #messageForm {
+        height: 160px;
+        font-size: 14px;
+    }
+    .formContainer button {
+        font-size: 14px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 670px)
+{
+    .contact h1 {
+        font-size: 45px;
+    }
+    .formContainer {
+        width: 290px;
+    }
+    .formContainer #inputForm {
+        height: 26px;
+        font-size: 11px;
+    }
+    .formContainer span {
+        font-size: 9px;
+    }
+    .formContainer #messageForm {
+        height: 120px;
+        font-size: 11px;
+    }
+    .formContainer button {
+        font-size: 11px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .contact h1 {
+        font-size: 35px;
+    }
+    .formContainer {
+        width: 220px;
+    }
+    .formContainer #inputForm {
+        height: 18px;
+        font-size: 9px;
+    }
+    .formContainer span {
+        font-size: 7px;
+    }
+    .formContainer #messageForm {
+        height: 80px;
+        font-size: 9px;
+        margin-top: 2px;
+    }
+    .formContainer button {
+        font-size: 9px;
+        height: 22px;
+    }
+}

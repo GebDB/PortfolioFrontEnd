@@ -1,0 +1,56 @@
+.navBar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    min-height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  /* Ensure space between items */
+    align-items: center; 
+    background-color: #605572;
+    transition: min-height 0.5s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+    box-sizing: border-box;  /* Ensure padding is included in width */
+    flex-wrap: nowrap;  /* Prevent items from wrapping */
+}
+
+.link-styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;  /* Allow links to grow */
+}
+
+.link, .contactme {  /* Combined common styles */
+    color: #ced0e3;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding-inline: 25px;
+    transition: font-size .6s ease-in-out, padding-inline .6s ease-in-out;
+    flex-shrink: 0;  /* Prevent links from shrinking */
+}
+
+.link:focus, .contactme:focus {
+    color: rgb(240, 240, 255);
+}
+@media screen and (max-width: 670px) {
+    .link, .contactme {
+        font-size: 14px;
+        padding-inline: 15px;
+    }
+}
+@media screen and (max-width: 452px) {
+    .link, .contactme {
+        font-size: 12px;
+        padding-inline: 10px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .link, .contactme {
+        font-size: 10px;
+        padding-inline: 8px;
+    }
+    .navBar {
+        min-height: 40px;
+    }
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: hsl(264, 10%, 30%);
+}
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    
+}
