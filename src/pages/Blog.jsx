@@ -9,7 +9,7 @@ function Blog() {
   let navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("portfoliodb-danielsportfolio.d.aivencloud.com:20254/posts")
+    axios.get("https://portfoliodb-danielsportfolio.d.aivencloud.com:20254/posts")
       .then((response) => {
         setPosts(response.data);
       })

@@ -28,7 +28,7 @@ function Contact() {
             const sanitizedName = DOMPurify.sanitize(data.name);
             const sanitizedEmail = DOMPurify.sanitize(data.email);
             const sanitizedMessage = DOMPurify.sanitize(data.message);
-            axios.post("portfoliodb-danielsportfolio.d.aivencloud.com:20254/contacts", {
+            axios.post("https://portfoliodb-danielsportfolio.d.aivencloud.com:20254/contacts", {
                 ...data,
                 name: sanitizedName,
                 email: sanitizedEmail,
