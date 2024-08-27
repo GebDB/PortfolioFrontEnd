@@ -38,6 +38,9 @@ body {
 .articleContent h3 {
   transition: font-size 0.6s ease;
 }
+.articleContent a {
+  color: #dbd6d6;
+}
 
 .imageContainer {
   display: flex;
