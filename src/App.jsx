@@ -24,5 +24,10 @@ function App() {
     </div>
   );
 }
-
+/*
+bugs to fix:
+button bug, only clicking the link, rather the entire button leads to the contact page.
+navbar links, enable highlighting when at a specific url.
+bold the navbar words
+*/
 export default App;
