@@ -38,7 +38,8 @@ body {
 .articleContent h3 {
   transition: font-size 0.6s ease;
 }
-.articleContent a {
+.articleContent a,
+.articleContent li {
   color: #dbd6d6;
   transition: font-size 0.6s ease;
   text-indent: 2em;
@@ -82,7 +83,8 @@ body {
   .articleContent p {
     font-size: 16px;
   }
-  .articleContent a {
+  .articleContent a,
+  .articleContent li {
     font-size: 16px;
   }
   .articleImage {
@@ -103,7 +105,8 @@ body {
   .articleContent p {
     font-size: 14px;
   }
-  .articleContent a {
+  .articleContent a,
+  .articleContent li {
     font-size: 14px;
   }
   .articleImage {
@@ -124,7 +127,8 @@ body {
   .articleContent p {
     font-size: 12px;
   }
-  .articleContent a {
+  .articleContent a,
+  .articleContent li {
     font-size: 12px;
   }
   .articleImage {
@@ -151,7 +155,8 @@ body {
   .articleContent p {
     font-size: 8px;
   }
-  .articleContent a {
+  .articleContent a,
+  .articleContent li {
     font-size: 8px;
   }
   .articleImage {
@@ -177,7 +182,8 @@ body {
   .articleContent p {
     font-size: 6px;
   }
-  .articleContent a {
+  .articleContent a,
+  .articleContent li {
     font-size: 6px;
   }
   .articleImage {
