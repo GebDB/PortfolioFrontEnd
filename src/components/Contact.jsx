@@ -87,7 +87,6 @@ function Contact() {
                 <ErrorMessage name="email" component="span"/>
                 <ErrorMessage name="message" component="span"/>
                 <span></span>
-                
             </Form>
         </Formik>
     </div>

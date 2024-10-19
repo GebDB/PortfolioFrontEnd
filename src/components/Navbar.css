@@ -1,13 +1,13 @@
 .navBar {
     padding-top: 1%;
     padding-bottom: 1%;
-    min-height: 54px;
+    height: 54px;
     width: 100%;
     display: flex;
     justify-content: space-between;  /* Ensure space between items */
     align-items: center; 
     background-color: #605572;
-    transition: min-height 0.5s ease;
+    transition: height 0.5s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
     box-sizing: border-box;  /* Ensure padding is included in width */
     flex-wrap: nowrap;  /* Prevent items from wrapping */
@@ -33,16 +33,38 @@
 .link:focus, .contactme:focus {
     color: rgb(240, 240, 255);
 }
+.linkedinContainer {
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 2%;
+    transition: width 0.6s ease, height 0.6s ease;
+}
+.linkedinlink img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
 @media screen and (max-width: 670px) {
     .link, .contactme {
         font-size: 14px;
         padding-inline: 15px;
     }
+    .linkedinContainer {
+        width: 22px;
+        height: 22px;
+    }
 }
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 490px) {
     .link, .contactme {
         font-size: 12px;
         padding-inline: 10px;
+    }
+    .linkedinContainer {
+        width: 18px;
+        height: 18px;
     }
 }
 @media screen and (max-width: 390px) {
@@ -51,6 +73,6 @@
         padding-inline: 8px;
     }
     .navBar {
-        min-height: 40px;
+        height: 40px;
     }
 }

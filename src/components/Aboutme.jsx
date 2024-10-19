@@ -25,8 +25,7 @@ function Aboutme() {
         and continue to learn new libraries and frameworks in the spaces I enter. 
         I have become well-aversed in various frameworks and libraries like React, 
         MySQL, Tailwind CSS, and more.
-        When I'm not coding, I love to spend my time reading manhwa, watching anime,
-        and playing video games.
+        When I'm not learning web development, I love to pursue my hobby of game development and graphics programming.
         </p>
       </div>
       <div className="techstack">

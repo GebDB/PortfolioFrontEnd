@@ -22,8 +22,7 @@ function HomeContent() {
       <div className = "introSummary">
       <p>
         I'm a graduate holding a bachelor's degree in Biology, and I am pursuing a bachelor's degree in Computer Science. 
-        With my experience in healthcare and software development, I provide excellent communication and 
-        analytical skills proven to be useful in any project I tackle.
+        I got into programming when I automated a work task in my healthcare job! Check out my stuff by scrolling below!
       </p>
       </div>
       <button className= "getInTouch">
