@@ -7,7 +7,7 @@ function Projects() {
       <div className="projectlist">
       <div className="project">
         <div className="iframeContainer">
-        <iframe src="https://www.youtube.com/embed/UUzgchCMkNI?si=Sg9IM5Xigj2dXD0L" title="Unnamed Game Project"></iframe>
+        <iframe src="https://www.youtube.com/embed/UUzgchCMkNI?si=Sg9IM5Xigj2dXD0L" allowfullscreen="allowfullscreen" title="Unnamed Game Project"></iframe>
         </div>
           <div className = "links">
             <a href="https://github.com/GebDB/Unnamed-Game" target="_blank">
@@ -19,6 +19,7 @@ function Projects() {
         <div className="iframeContainer">
           <iframe
             src="https://www.youtube.com/embed/vuv-lLifQI0" 
+            allowfullscreen="allowfullscreen"
             title="Guess the Anime Theme Demo" >
           </iframe>
         </div>
@@ -36,6 +37,7 @@ function Projects() {
         <div className="iframeContainer">
           <iframe
             src="https://www.youtube.com/embed/XGsWwzsNfao" 
+            allowfullscreen="allowfullscreen"
             title="DNA Simulator demo" >
           </iframe>
           </div>
@@ -49,7 +51,8 @@ function Projects() {
       <div className="project">
         <div className="iframeContainer">
           <iframe
-            src="https://www.youtube.com/embed/mRjDBOq1GYk">
+            src="https://www.youtube.com/embed/mRjDBOq1GYk"
+            allowfullscreen="allowfullscreen">
           </iframe>
         </div>
           <div className = "links">
@@ -60,7 +63,9 @@ function Projects() {
         </div>
       <div className="project">
         <div className="iframeContainer">
-        <iframe src="https://www.youtube.com/embed/B6TQUSmsHK0?si=pya_RkQhW-ok34sP" title="Leaves Shader"></iframe>
+        <iframe src="https://www.youtube.com/embed/B6TQUSmsHK0?si=pya_RkQhW-ok34sP" 
+                allowfullscreen="allowfullscreen"
+                title="Leaves Shader"></iframe>
         </div>
           <div className = "links">
             <a href="https://github.com/GebDB/LeavesShader" target="_blank">
