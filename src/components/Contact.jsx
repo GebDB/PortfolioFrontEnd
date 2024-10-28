@@ -5,6 +5,8 @@ import axios from 'axios';
 import * as Yup from 'yup';
 import DOMPurify from 'dompurify';
 import "./Contact.css";
+import linkedin from '../assets/linkedin.svg'
+
 
 function Contact() {
     const [success, setSuccess] = useState(false)
@@ -59,6 +61,15 @@ function Contact() {
     return (
     <div className="contact">
         <h1 className="title"><span>Contact</span></h1>
+            <div className="contactlinkcontainer">
+                <a className="linkedinlink2" href="https://www.linkedin.com/in/danielbecirevic/" target="_blank">
+                    Find me on LinkedIn!
+                </a>
+                <a className="linkedinlink2" href="https://docs.google.com/document/d/10AT87IVMyB5DWjTmn4Qwua_OgIY7cHtd2FEjXap5jz0/edit?usp=sharing" target="_blank">
+                    Look at my resume!
+                </a>
+            </div>
+
         <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
             <Form className="formContainer">
                 <Field 

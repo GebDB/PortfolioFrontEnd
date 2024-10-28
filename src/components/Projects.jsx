@@ -5,16 +5,7 @@ function Projects() {
       <div className="projects">
       <h1><span>Projects</span></h1>
       <div className="projectlist">
-      <div className="project">
-        <div className="iframeContainer">
-        <iframe src="https://www.youtube.com/embed/UUzgchCMkNI?si=Sg9IM5Xigj2dXD0L" allowfullscreen="allowfullscreen" title="Unnamed Game Project"></iframe>
-        </div>
-          <div className = "links">
-            <a href="https://github.com/GebDB/Unnamed-Game" target="_blank">
-            View on GitHub
-            </a>
-          </div>
-      </div>
+      <h2>Web and Software Development</h2>
       <div className="project">
         <div className="iframeContainer">
           <iframe
@@ -32,13 +23,12 @@ function Projects() {
             </a>
           </div>
       </div>
-
       <div className="project">
         <div className="iframeContainer">
           <iframe
-            src="https://www.youtube.com/embed/XGsWwzsNfao" 
+            src="https://www.youtube.com/embed/mRjDBOq1GYk"
             allowfullscreen="allowfullscreen"
-            title="DNA Simulator demo" >
+            title="Timer" >
           </iframe>
           </div>
           <div className = "links">
@@ -47,11 +37,22 @@ function Projects() {
             </a>
           </div>
       </div>
+      <h2> Graphics and Game Development </h2>
+      <div className="project">
+        <div className="iframeContainer">
+        <iframe src="https://www.youtube.com/embed/UUzgchCMkNI?si=Sg9IM5Xigj2dXD0L" allowfullscreen="allowfullscreen" title="Unnamed Game Project"></iframe>
+        </div>
+          <div className = "links">
+            <a href="https://github.com/GebDB/Unnamed-Game" target="_blank">
+            View on GitHub
+            </a>
+          </div>
+      </div>
 
       <div className="project">
         <div className="iframeContainer">
           <iframe
-            src="https://www.youtube.com/embed/mRjDBOq1GYk"
+            src="https://www.youtube.com/embed/XGsWwzsNfao" 
             allowfullscreen="allowfullscreen">
           </iframe>
         </div>

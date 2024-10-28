@@ -49,6 +49,12 @@
 .formContainer #location {
     display: none;
 }
+.contactlinkcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .formContainer span {
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -56,6 +62,14 @@
     padding-left: 2px;
     font-weight: 100;
     transition: font-size 0.6s ease;
+}
+.linkedinlink2 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 100;
+    transition: font-size 0.6s ease;
+    text-decoration: none;
+    margin-top: 5%;
 }
 .formContainer #messageForm {
     transition: height 0.6s ease, font-size 0.6s ease;
@@ -125,6 +139,9 @@
     .formContainer span {
         font-size: 12px;
     }
+    .linkedinlink2 {
+        font-size: 15px;
+    }
     .formContainer #messageForm {
         height: 160px;
         font-size: 14px;
@@ -150,6 +167,9 @@
     .formContainer span {
         font-size: 9px;
     }
+    .linkedinlink2 {
+        font-size: 12px;
+    }
     .formContainer #messageForm {
         height: 120px;
         font-size: 11px;
@@ -172,6 +192,9 @@
     }
     .formContainer span {
         font-size: 7px;
+    }
+    .linkedinlink2 {
+        font-size: 10px;
     }
     .formContainer #messageForm {
         height: 80px;
