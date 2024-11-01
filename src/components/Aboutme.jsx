@@ -11,6 +11,12 @@ import opengl from '../assets/opengl.svg';
 import python from '../assets/python.svg';
 import reacticon from '../assets/react.svg';
 import twcss from '../assets/tailwindcss-icon.svg';
+import hlsl from '../assets/hlsl.svg';
+import blender from '../assets/blender.png';
+import cs from '../assets/Cs.png';
+import unity from '../assets/unity.svg';
+import ue from '../assets/unrealengine.svg';
+import htmlcss from '../assets/htmlcss.svg';
 
 function Aboutme() {
   return (
@@ -18,14 +24,11 @@ function Aboutme() {
       <div className="aboutmeText">
       <h1><span>About Me</span></h1>
         <p>
-        As a person coming from a unique educational background, 
-        holding two Bachelor degrees,
-        I believe in the idea of continuous learning. Thanks to this
-        core philosophy, I gained a passion in software development
-        and continue to learn new libraries and frameworks in the spaces I enter. 
-        I have become well-aversed in various frameworks and libraries like React, 
-        MySQL, Tailwind CSS, and more.
-        When I'm not learning web development, I love to pursue my hobby of game development and graphics programming.
+        With a unique educational background, I strongly believe in continuous learning. 
+        This core philosophy has enabled me to develop significant knowledge in programming 
+        and cross-disciplinary fields.
+        I especially would love to apply my skills as a tech artist with a focus on shaders.
+        My ultimate goal is to keep expanding my skills in the specialized field of graphics and shader development.
         </p>
       </div>
       <div className="techstack">
@@ -34,21 +37,21 @@ function Aboutme() {
           </img>
         </div>
         <div className="techcard">
-          <img src={css}>
+          <img src={cs}>
           </img>
         </div>
         <div className="techcard">
-          <img src={git}>
-          </img>
-        </div>
-
-        <div className="techcard">
-          <img src={html}>
+          <img src={python}>
           </img>
         </div>
 
         <div className="techcard">
-          <img src={java}>
+          <img src={htmlcss}>
+          </img>
+        </div>
+
+        <div className="techcard">
+          <img src={hlsl}>
           </img>
         </div>
 
@@ -58,12 +61,12 @@ function Aboutme() {
         </div>
 
         <div className="techcard">
-          <img src={mysql}>
+          <img src={java}>
           </img>
         </div>
 
         <div className="techcard">
-          <img src={nodejs}>
+          <img src={git}>
           </img>
         </div>
 
@@ -73,17 +76,17 @@ function Aboutme() {
         </div>
 
         <div className="techcard">
-          <img src={python}>
+          <img src={blender}>
           </img>
         </div>
 
         <div className="techcard">
-          <img src={reacticon}>
+          <img src={ue}>
           </img>
         </div>
 
         <div className="techcard">
-          <img src={twcss}>
+          <img src={unity}>
           </img>
         </div>
       </div>
