@@ -26,7 +26,7 @@ function Projects() {
             <h3>A fog post processing effect developed in HLSL, C# for Unity's URP</h3>  
             <div className="project">
               <div className="iframeContainer">
-              <iframe src="https://www.youtube.com/embed/a636I-m5seA?si=-LdYkVw-S2UIXsLs" 
+              <iframe src="https://www.youtube.com/embed/6hEbv_-3Oxc?si=dkZQxEUfwk7I7OgI" 
                       allowfullscreen="allowfullscreen"
                       title="Fog Shader"></iframe>
               </div>
