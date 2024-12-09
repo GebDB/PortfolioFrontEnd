@@ -36,6 +36,21 @@ function Projects() {
                   </a>
                 </div>
             </div>
+
+            <h3>A Unity Snow Particle System + Shader Graph</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+              <iframe src="https://www.youtube.com/embed/GIdMFwDQ72s" 
+                      allowfullscreen="allowfullscreen"
+                      title="Snow Particle System"></iframe>
+              </div>
+                <div className = "links">
+                  <a href="https://github.com/GebDB/SnowParticleSystem" target="_blank">
+                  View on GitHub
+                  </a>
+                </div>
+            </div>
+            
             <h3>A foliage shader created with Unity's shader graph</h3>  
             <div className="project">
               <div className="iframeContainer">
@@ -51,7 +66,28 @@ function Projects() {
               </div>
 
         <h2>Game Development!</h2>
-
+        <h3>WaxHeart, a 3D Horror Platformer Game</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+              <iframe src="https://www.youtube.com/embed/HzQJ0a0jpXg" allowfullscreen="allowfullscreen" title="WaxHeart"></iframe>
+              </div>
+                <div className = "links">
+                  <a href="https://waxheart.info/" target="_blank">
+                  WaxHeart Team
+                  </a>
+                </div>
+            </div>
+            <h3>A 3D action Unity game with EGD Collective's Studio Aspen</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+              <img className = "wip" src={wip}></img>
+              </div>
+                <div className = "links">
+                  <a href="https://github.com/StudioAspen/Aspen2024-2025" target="_blank">
+                  View on GitHub
+                  </a>
+                </div>
+            </div>
         <h3>A Vampire-Survivors inspired Unity game (work in progress)</h3>  
         <div className="project">
               <div className="iframeContainer">
@@ -64,17 +100,6 @@ function Projects() {
                 </div>
             </div>
 
-            <h3>A 3D action Unity game with EGD Collective's Studio Aspen</h3>  
-            <div className="project">
-              <div className="iframeContainer">
-              <img className = "wip" src={wip}></img>
-              </div>
-                <div className = "links">
-                  <a href="https://github.com/StudioAspen/Aspen2024-2025" target="_blank">
-                  View on GitHub
-                  </a>
-                </div>
-            </div>
 
         <h2>Software Development</h2>
 
