@@ -88,6 +88,18 @@ function Projects() {
                   </a>
                 </div>
             </div>
+
+        <h3>Digital Hopper (SJSU Global Game Jam Winner for Most Creative Concept)</h3>
+        <div className="project">
+              <div className="iframeContainer">
+              <iframe src="https://www.youtube.com/embed/MmDgKEkkMc4" allowfullscreen="allowfullscreen" title="2025 GLOBAL GAME JAM"></iframe>
+              </div>
+                <div className = "links">
+                  <a href="https://github.com/GebDB/DigitalHopper" target="_blank">
+                  View on GitHub
+                  </a>
+                </div>
+            </div>
         <h3>A Vampire-Survivors inspired Unity game (work in progress)</h3>  
         <div className="project">
               <div className="iframeContainer">
@@ -99,7 +111,6 @@ function Projects() {
                   </a>
                 </div>
             </div>
-
 
         <h2>Software Development</h2>
 
