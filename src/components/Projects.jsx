@@ -72,7 +72,7 @@ function Projects() {
                       title="Leaves Shader"></iframe>
               </div>
                 <div className = "links">
-                  <a href="https://github.com/GebDB/FogBarriers" target="_blank">
+                  <a href="https://github.com/GebDB/LeavesShader" target="_blank">
                   View on GitHub
                   </a>
                 </div>
@@ -86,7 +86,7 @@ function Projects() {
                       title="Fog VFx"></iframe>
               </div>
                 <div className = "links">
-                  <a href="https://github.com/GebDB/LeavesShader" target="_blank">
+                  <a href="https://github.com/GebDB/FogBarriers" target="_blank">
                   View on GitHub
                   </a>
                 </div>
