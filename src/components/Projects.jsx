@@ -36,6 +36,19 @@ function Projects() {
                   </a>
                 </div>
             </div>
+            <h3>A Procedural Water Shader with an Environment using GLSL, OpenGL, and C++</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+              <iframe src="https://www.youtube.com/embed/nS41gys4xNs" 
+                      allowfullscreen="allowfullscreen"
+                      title="Fog Shader"></iframe>
+              </div>
+                <div className = "links">
+                  <a href="https://github.com/GebDB/Procedural-Water" target="_blank">
+                  View on GitHub
+                  </a>
+                </div>
+            </div>
 
             <h3>A Unity Snow Particle System + Shader Graph</h3>  
             <div className="project">
