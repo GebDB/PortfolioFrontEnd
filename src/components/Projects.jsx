@@ -41,7 +41,7 @@ function Projects() {
               <div className="iframeContainer">
               <iframe src="https://www.youtube.com/embed/nS41gys4xNs" 
                       allowfullscreen="allowfullscreen"
-                      title="Fog Shader"></iframe>
+                      title="Procedural Water"></iframe>
               </div>
                 <div className = "links">
                   <a href="https://github.com/GebDB/Procedural-Water" target="_blank">
@@ -64,12 +64,26 @@ function Projects() {
                 </div>
             </div>
             
-            <h3>A foliage shader created with Unity's shader graph</h3>  
+            <h3>A Foliage Shader created with Unity's shader graph</h3>  
             <div className="project">
               <div className="iframeContainer">
               <iframe src="https://www.youtube.com/embed/B6TQUSmsHK0?si=pya_RkQhW-ok34sP" 
                       allowfullscreen="allowfullscreen"
                       title="Leaves Shader"></iframe>
+              </div>
+                <div className = "links">
+                  <a href="https://github.com/GebDB/FogBarriers" target="_blank">
+                  View on GitHub
+                  </a>
+                </div>
+              </div>
+
+              <h3>A Styilized Fog Barrier created with Unity's VFX graph</h3>
+              <div className="project">
+              <div className="iframeContainer">
+              <iframe src="https://www.youtube.com/embed/nJirall9bUQ"
+                      allowfullscreen="allowfullscreen"
+                      title="Fog VFx"></iframe>
               </div>
                 <div className = "links">
                   <a href="https://github.com/GebDB/LeavesShader" target="_blank">
