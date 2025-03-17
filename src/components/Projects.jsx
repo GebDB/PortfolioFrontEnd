@@ -7,7 +7,7 @@ function Projects() {
         <h1><span>Projects</span></h1>
           <div className="projectlist">
 
-            <h2> OpenGL, GLSL, and HLSL Projects! </h2>
+            <h2> OpenGL and Vulkan Projects! </h2>
             <h3>A Educational DNA Renderer made in C++, OpenGL and GLSL</h3>
             <div className="project">
               <div className="iframeContainer">
@@ -23,19 +23,6 @@ function Projects() {
                 </div>
               </div>
 
-            <h3>A fog post processing effect developed in HLSL, C# for Unity's URP</h3>  
-            <div className="project">
-              <div className="iframeContainer">
-              <iframe src="https://www.youtube.com/embed/6hEbv_-3Oxc?si=dkZQxEUfwk7I7OgI" 
-                      allowfullscreen="allowfullscreen"
-                      title="Fog Shader"></iframe>
-              </div>
-                <div className = "links">
-                  <a href="https://github.com/GebDB/AspenFogPostEffect" target="_blank">
-                  View on GitHub
-                  </a>
-                </div>
-            </div>
             <h3>A Procedural Water Shader with an Environment using GLSL, OpenGL, and C++</h3>  
             <div className="project">
               <div className="iframeContainer">
@@ -50,7 +37,8 @@ function Projects() {
                 </div>
             </div>
 
-            <h3>A Unity Snow Particle System + Shader Graph</h3>  
+{/*
+           <h3>A Unity Snow Particle System + Shader Graph</h3>
             <div className="project">
               <div className="iframeContainer">
               <iframe src="https://www.youtube.com/embed/GIdMFwDQ72s" 
@@ -63,35 +51,7 @@ function Projects() {
                   </a>
                 </div>
             </div>
-            
-            <h3>A Foliage Shader created with Unity's shader graph</h3>  
-            <div className="project">
-              <div className="iframeContainer">
-              <iframe src="https://www.youtube.com/embed/B6TQUSmsHK0?si=pya_RkQhW-ok34sP" 
-                      allowfullscreen="allowfullscreen"
-                      title="Leaves Shader"></iframe>
-              </div>
-                <div className = "links">
-                  <a href="https://github.com/GebDB/LeavesShader" target="_blank">
-                  View on GitHub
-                  </a>
-                </div>
-              </div>
-
-              <h3>A Styilized Fog Barrier created with Unity's VFX graph</h3>
-              <div className="project">
-              <div className="iframeContainer">
-              <iframe src="https://www.youtube.com/embed/nJirall9bUQ"
-                      allowfullscreen="allowfullscreen"
-                      title="Fog VFx"></iframe>
-              </div>
-                <div className = "links">
-                  <a href="https://github.com/GebDB/FogBarriers" target="_blank">
-                  View on GitHub
-                  </a>
-                </div>
-              </div>
-
+*/}
         <h2>Game Development!</h2>
         <h3>WaxHeart, a 3D Horror Platformer Game</h3>  
             <div className="project">
@@ -103,15 +63,16 @@ function Projects() {
                   WaxHeart Team
                   </a>
                 </div>
-            </div>
-            <h3>A 3D action Unity game with EGD Collective's Studio Aspen</h3>  
+            </div> 
+            
+            <h3>Project : Dreamscape</h3>  
             <div className="project">
               <div className="iframeContainer">
-              <img className = "wip" src={wip}></img>
+              <iframe src="https://www.youtube.com/embed/uyIlUd1mpPE" allowfullscreen="allowfullscreen" title="PROJECT : DREAMSCAPE Contributions"></iframe>
               </div>
                 <div className = "links">
-                  <a href="https://github.com/StudioAspen/Aspen2024-2025" target="_blank">
-                  View on GitHub
+                  <a href="https://store.steampowered.com/app/3569570/Project__DreamScape/" target="_blank">
+                  View on Steam
                   </a>
                 </div>
             </div>
