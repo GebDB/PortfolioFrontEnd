@@ -63,12 +63,12 @@ function Projects() {
                   WaxHeart Team
                   </a>
                 </div>
-            </div> 
+            </div>
             
             <h3>Project Dreamscape, a 3D Action Rogue-like</h3>  
             <div className="project">
               <div className="iframeContainer">
-              <iframe src="https://www.youtube.com/embed/uyIlUd1mpPE" allowfullscreen="allowfullscreen" title="PROJECT : DREAMSCAPE Contributions"></iframe>
+              <iframe src="https://www.youtube.com/embed/wjpnpBFsmzs" allowfullscreen="allowfullscreen" title="PROJECT : DREAMSCAPE Contributions"></iframe>
               </div>
                 <div className = "links">
                   <a href="https://store.steampowered.com/app/3569570/Project__DreamScape/" target="_blank">
