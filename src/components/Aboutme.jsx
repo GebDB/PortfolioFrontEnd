@@ -24,10 +24,10 @@ function Aboutme() {
       <div className="aboutmeText">
       <h1><span>About Me</span></h1>
         <p>
-        With a unique educational background, I strongly believe in continuous learning. 
+        With a double Bachelors degree, I strongly believe in continuous learning. 
         This core philosophy has enabled me to develop significant knowledge in programming 
-        and cross-disciplinary fields.
-        My ultimate goal is to keep expanding my skills in the specialized field of graphics and shader development.
+        and cross-disciplinary fields. Particularly, my interest in art has aided me in 
+        game development and front-end web development.
         </p>
       </div>
       <div className="techstack">
