@@ -27,7 +27,6 @@ function Aboutme() {
         With a unique educational background, I strongly believe in continuous learning. 
         This core philosophy has enabled me to develop significant knowledge in programming 
         and cross-disciplinary fields.
-        I especially would love to apply my skills as a tech artist with a focus on shaders.
         My ultimate goal is to keep expanding my skills in the specialized field of graphics and shader development.
         </p>
       </div>
