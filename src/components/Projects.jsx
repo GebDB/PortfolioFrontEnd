@@ -65,7 +65,7 @@ function Projects() {
                 </div>
             </div> 
             
-            <h3>Project : Dreamscape, a 3D Action Rogue-like</h3>  
+            <h3>Project Dreamscape, a 3D Action Rogue-like</h3>  
             <div className="project">
               <div className="iframeContainer">
               <iframe src="https://www.youtube.com/embed/uyIlUd1mpPE" allowfullscreen="allowfullscreen" title="PROJECT : DREAMSCAPE Contributions"></iframe>
