@@ -63,14 +63,11 @@ function Contact() {
         <h1 className="title"><span>Contact</span></h1>
             <div className="contactlinkcontainer">
                 <a className="linkedinlink2" href="https://www.linkedin.com/in/danielbecirevic/" target="_blank">
-                    Find me on LinkedIn!
-                </a>
-                <a className="linkedinlink2" href="https://docs.google.com/document/d/10AT87IVMyB5DWjTmn4Qwua_OgIY7cHtd2FEjXap5jz0/edit?usp=sharing" target="_blank">
-                    Look at my resume!
+                    Connect on LinkedIn!
                 </a>
             </div>
 
-        <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
+       {/* <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
             <Form className="formContainer">
                 <Field 
                 autoComplete="off"
@@ -99,7 +96,7 @@ function Contact() {
                 <ErrorMessage name="message" component="span"/>
                 <span></span>
             </Form>
-        </Formik>
+        </Formik> */}
     </div>
     );
 }
