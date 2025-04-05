@@ -21,8 +21,9 @@ function HomeContent() {
       </h1>
       <div className = "introSummary">
       <p>
-        I'm a graduate holding a bachelor's degree in Biology, and I am pursuing a bachelor's degree in Computer Science. 
-        I got into programming when I automated a work task in my healthcare job!
+        I'm a software developer with an interest in web, mobile and game development.
+        In 2022, I got into programming when I automated a work task in my healthcare job using Python!
+        Ever since then, software development has been and continuess to be my passion.
       </p>
       </div>
       <button className= "getInTouch">
