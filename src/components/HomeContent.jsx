@@ -23,7 +23,7 @@ function HomeContent() {
       <p>
         I'm a software developer with an interest in web, mobile and game development.
         In 2022, I got into programming when I automated a work task in my healthcare job using Python!
-        Ever since then, software development has been and continuess to be my passion.
+        Ever since then, software development continues to be my passion.
       </p>
       </div>
       <button className= "getInTouch">
