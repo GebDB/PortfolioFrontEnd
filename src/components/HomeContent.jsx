@@ -21,9 +21,9 @@ function HomeContent() {
       </h1>
       <div className = "introSummary">
       <p>
-        I'm a software developer with an interest in web, mobile and game development.
-        In 2022, I got into programming when I automated a work task in my healthcare job using Python!
-        Ever since then, software development continues to be my passion.
+        I'm a software developer with an interest in web, mobile, and game development. 
+        In 2022, I discovered programming when I automated a work task at my healthcare job using Python. 
+        Since then, software development has become my passion.
       </p>
       </div>
       <button className= "getInTouch">
