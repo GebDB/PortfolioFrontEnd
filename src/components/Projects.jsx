@@ -75,7 +75,7 @@ function Projects() {
                 </div>
             </div>
 */}
-      <h2>Game Development!</h2>
+      <h2>Game Development</h2>
         <h3>WaxHeart, a 3D Horror Platformer Game</h3>  
           <div className="project">
             <div className="iframeContainer">
