@@ -22,7 +22,7 @@ function HomeContent() {
       <div className = "introSummary">
       <p>
         I'm a graduate holding a bachelor's degree in Biology, and I am pursuing a bachelor's degree in Computer Science. 
-        I got into programming when I automated a work task in my healthcare job! Check out my stuff by scrolling below!
+        I got into programming when I automated a work task in my healthcare job!
       </p>
       </div>
       <button className= "getInTouch">

@@ -26,8 +26,7 @@ function Aboutme() {
         <p>
         With a double Bachelors degree, I strongly believe in continuous learning. 
         This core philosophy has enabled me to develop significant knowledge in programming 
-        and cross-disciplinary fields. Particularly, my interest in art has aided me in 
-        game development and front-end web development.
+        and cross-disciplinary fields. Check out all the cool things I've worked on!
         </p>
       </div>
       <div className="techstack">
@@ -50,7 +49,7 @@ function Aboutme() {
         </div>
 
         <div className="techcard">
-          <img src={hlsl}>
+          <img src={mysql}>
           </img>
         </div>
 
@@ -70,12 +69,12 @@ function Aboutme() {
         </div>
 
         <div className="techcard">
-          <img src={opengl}>
+          <img src={twcss}>
           </img>
         </div>
 
         <div className="techcard">
-          <img src={blender}>
+          <img src={nodejs}>
           </img>
         </div>
 
