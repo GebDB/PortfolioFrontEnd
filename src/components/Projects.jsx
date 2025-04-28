@@ -58,6 +58,22 @@ function Projects() {
                   View on GitHub
                 </a>
               </div>
+
+            <h3>Event Organizer: PHP, Javascript, HTML/CSS</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+                <iframe
+                  src="https://www.youtube.com/embed/UOFMZM2sFAA"
+                  allowfullscreen="allowfullscreen"
+                  title="Web Dev 2 (Final Project)">
+                </iframe>
+              </div>
+              <div className = "links">
+                <a href="https://github.com/GebDB/Event-Organizer" target="_blank">
+                  View on GitHub
+                </a>
+              </div> 
+              
             </div>
 
 {/*
