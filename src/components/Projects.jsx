@@ -58,8 +58,9 @@ function Projects() {
                   View on GitHub
                 </a>
               </div>
+            </div>
 
-            <h3>Event Organizer: PHP, Javascript, HTML/CSS</h3>  
+              <h3>Event Organizer: PHP, Javascript, HTML/CSS</h3>  
             <div className="project">
               <div className="iframeContainer">
                 <iframe
@@ -73,7 +74,6 @@ function Projects() {
                   View on GitHub
                 </a>
               </div> 
-              
             </div>
 
 {/*
