@@ -7,24 +7,6 @@ function Projects() {
         <h1><span>Projects</span></h1>
           <div className="projectlist">
 
-          <h2>Software Development</h2>
-          
-          <h3>TurtleTech.Art - A Community Resource Hub for Tech Artists</h3>
-             <div className="project">
-              <div className="iframeContainer">
-                <iframe 
-                  src="https://www.youtube.com/embed/FJi8Xewdntc"
-                  allowfullscreen="allowfullscreen" 
-                   >
-                </iframe>
-              </div>
-              <div className = "links">
-                <a href="https://turtletech.art/" target="_blank">
-                  Live App
-                </a>
-              </div>
-            </div>
-
           <h3>An anime trivia website developed with React</h3>  
             <div className="project">
               <div className="iframeContainer">
@@ -35,11 +17,28 @@ function Projects() {
                 </iframe>
               </div>
               <div className = "links">
+                <a href="https://github.com/GebDB/GuessTheAnimeTheme" target="_blank">
+                  View on GitHub
+                </a>
                 <a href="https://gebdb.github.io/GuessTheAnimeTheme/" target="_blank">
                   Live App
                 </a>
-                <a href="https://github.com/GebDB/GuessTheAnimeTheme" target="_blank">
-                  View on GitHub
+              </div>
+            </div>
+
+          <h2>Software Development</h2>
+            <h3>TurtleTech.Art - A Community Resource Hub for Tech Artists</h3>  
+            <div className="project">
+              <div className="iframeContainer">
+                <iframe 
+                  src="https://www.youtube.com/embed/FJi8Xewdntc" 
+                  allowfullscreen="allowfullscreen" 
+                   >
+                </iframe>
+              </div>
+              <div className = "links">
+                <a href="https://www.turtletech.art" target="_blank">
+                  Live App
                 </a>
               </div>
             </div>

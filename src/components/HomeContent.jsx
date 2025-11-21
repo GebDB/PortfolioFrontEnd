@@ -4,7 +4,7 @@ import intropic from '../assets/intropic.png';
 import { Link } from 'react-router-dom';
 
 function HomeContent() {
-  const texts = ["Software Developer", "Graphics", "Tech Artist", "Armored Core Enjoyer"];
+  const texts = ["Software Developer", "Graphics", "Armored Core Enjoyer"];
 
   return (
     <div className="homecontent">

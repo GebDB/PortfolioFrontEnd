@@ -5,6 +5,11 @@ import { useNavigate } from 'react-router-dom';
 import './Blog.css'; 
 
 function Blog() {
+  return (
+    <div className = "closed">
+      <h1>Blog temporarily closed</h1>
+    </div>
+  );
   const [posts, setPosts] = useState([]); 
   let navigate = useNavigate();
 
