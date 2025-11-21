@@ -8,6 +8,22 @@ function Projects() {
           <div className="projectlist">
 
           <h2>Software Development</h2>
+          
+          <h3>TurtleTech.Art - A Community Resource Hub for Tech Artists</h3>
+             <div className="project">
+              <div className="iframeContainer">
+                <iframe 
+                  src="https://www.youtube.com/embed/FJi8Xewdntc"
+                  allowfullscreen="allowfullscreen" 
+                   >
+                </iframe>
+              </div>
+              <div className = "links">
+                <a href="https://turtletech.art/" target="_blank">
+                  Live App
+                </a>
+              </div>
+            </div>
 
           <h3>An anime trivia website developed with React</h3>  
             <div className="project">
