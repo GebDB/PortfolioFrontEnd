@@ -26,9 +26,9 @@ function HomeContent() {
         Since then, software development has become my passion.
       </p>
       </div>
-      <button className= "getInTouch">
-      <Link className="contactme" to="/#contactme">Get in Touch</Link>
-      </button>
+      <Link className="getInTouch" to="/#contactme">
+        Get in Touch
+      </Link>
     </div>
   );
 }
